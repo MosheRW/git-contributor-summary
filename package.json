@@ -1,0 +1,35 @@
+{
+  "name": "@mosherw/git-contributor-summary",
+  "version": "1.0.0",
+  "description": "A CLI tool to display git contributor statistics as a pleasant histogram.",
+  "main": "index.js",
+  "bin": {
+    "git-contributor-summary": "git-contributor-summary.js"
+  },
+  "keywords": [
+    "git",
+    "contributor",
+    "histogram",
+    "cli",
+    "summary"
+  ],
+  "private": false,
+  "publisher": "mosherw",
+  "maintainers": [
+    "mosherw"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MosheRW/git-contributor-summary.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "MosheRW",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=14"
+  }
+}
