@@ -1,11 +1,9 @@
-# git-contributor-summary
-
 A CLI tool to display git contributor statistics as a pleasant histogram.
 
 ## Installation
 
 ```
-npm install -g ./
+npm install -g @mosherw/git-contributor-summary
 ```
 
 ## Usage
@@ -23,6 +21,10 @@ git-contributor-summary [path-to-git-repo]
 ```
 git-contributor-summary ../my-git-project
 ```
+```
+git-contributor-summary 
+```
+
 
 ## License
 
