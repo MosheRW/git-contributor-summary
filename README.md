@@ -1,6 +1,8 @@
-A CLI tool to display git contributor statistics as a pleasant histogram.
+# @mosherw/git-contributor-summary
 
-## Installation
+CLI tool that prints Git contributor statistics as a readable histogram.
+
+## Install
 
 ```
 npm install -g @mosherw/git-contributor-summary
@@ -10,19 +12,32 @@ npm install -g @mosherw/git-contributor-summary
 
 ```
 git-contributor-summary [path-to-git-repo]
+
+## Flags
+
+```
+-e, --exists  Show a line-ownership summary for the current files in the repo
+```
 ```
 
-- If no path is provided, it uses the current directory.
-- Shows a histogram of contributors' additions and deletions.
-- Filters out non-human or malformed contributors.
+### Notes
 
-## Example
+- If no path is provided, the current directory is used.
+- Output includes additions and deletions per contributor.
+- Filters out malformed or non-human contributors.
+
+## Examples
 
 ```
 git-contributor-summary ../my-git-project
 ```
+
 ```
-git-contributor-summary 
+git-contributor-summary
+```
+
+```
+git-contributor-summary -e
 ```
 
 
